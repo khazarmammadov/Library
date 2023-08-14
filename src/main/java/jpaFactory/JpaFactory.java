@@ -4,7 +4,7 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
 
 
-public interface jpaFactory {
+public interface JpaFactory {
     EntityManager getEntityManager();
     EntityTransaction getEntityTransaction();
 

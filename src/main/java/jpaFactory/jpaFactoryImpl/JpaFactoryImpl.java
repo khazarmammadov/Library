@@ -4,9 +4,9 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;
-import jpaFactory.jpaFactory;
+import jpaFactory.JpaFactory;
 
-public class jpaFactoryImpl implements jpaFactory {
+public class JpaFactoryImpl implements JpaFactory {
     private EntityManager entityManager = null;
 
     @Override
